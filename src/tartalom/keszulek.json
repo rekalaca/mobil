@@ -1,0 +1,42 @@
+[
+    {
+        "tipus" : "Apple Iphone 11",
+        "tarterulet" : 64,
+        "halozat" : "LTE",
+        "magassag" : 150.9,
+        "szelesseg" : 75.7,
+        "vastagsag" : 8.3
+    },
+    {
+        "tipus" : "Apple Iphone 13",
+        "tarterulet" : 128,
+        "halozat" : "5G",
+        "magassag" : 146.7,
+        "szelesseg" : 71.5,
+        "vastagsag" : 7.65
+    },
+    {
+        "tipus" : "Apple Iphone X",
+        "tarterulet" : 64,
+        "halozat" : "LTE",
+        "magassag" : 143.6,
+        "szelesseg" : 70.9,
+        "vastagsag" : 7.7
+    },
+    {
+        "tipus" : "Apple Iphone SE",
+        "tarterulet" : 64,
+        "halozat" : "LTE",
+        "magassag" : 138.4,
+        "szelesseg" : 67.3,
+        "vastagsag" : 7.3
+    },
+    {
+        "tipus" : "Apple Iphone 13 PRO Max",
+        "tarterulet" : 256,
+        "halozat" : "5G",
+        "magassag" : 160.8,
+        "szelesseg" : 78.1,
+        "vastagsag" : 7.65
+    }
+]

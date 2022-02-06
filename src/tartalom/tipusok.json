@@ -1,0 +1,50 @@
+[
+    {
+        "tipus" : "Apple Iphone 12 mini",
+        "tarhely" : 64,
+        "halozat" : "5G",
+        "szin" : "Fekete"
+    },
+    {
+        "tipus" : "Apple Iphone 11",
+        "tarhely" : 64,
+        "halozat" : "LTE",
+        "szin" : "Fekete"
+    },
+    {
+        "tipus" : "Apple Iphone 13 PRO Max",
+        "tarhely" : 128,
+        "halozat" : "5G",
+        "szin" : "Grafit"
+    },
+    {
+        "tipus" : "Apple Iphone 7",
+        "tarhely" : 64,
+        "halozat" : "LTE",
+        "szin" : "Rose Gold"
+    },
+    {
+        "tipus" : "Apple Iphone XR",
+        "tarhely" : 128,
+        "halozat" : "LTE",
+        "szin" : "Fehér"
+    },
+    {
+        "tipus" : "Apple Iphone X",
+        "tarhely" : 256,
+        "halozat" : "LTE",
+        "szin" : "Asztroszürke"
+    },
+    {
+        "tipus" : "Apple Iphone 6s",
+        "tarhely" : 64,
+        "halozat" : "LTE",
+        "szin" : "Grafit"
+    },
+    {
+        "tipus" : "Apple Iphone 8 Plus",
+        "tarhely" : 256,
+        "halozat" : "LTE",
+        "szin" : "Fekete"
+    }
+]

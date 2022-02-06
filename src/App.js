@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Iphones from "./tartalom/Iphones";
+import Tipusok from "./tartalom/Tipusok";
+import Adatbeker from "./tartalom/Adatbeker";
+import Menu from "./tartalom/Menu";
+import Hiba from "./tartalom/Hiba";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Menu />}>
+          <Route index element={<Iphones />} />
+          <Route path="tipusok" element={<Tipusok />} />
+          <Route path="adatbeker" element={<Adatbeker />} />
+          <Route path="*" element={<Hiba />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
