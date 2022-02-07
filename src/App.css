@@ -30,12 +30,13 @@ td{
 }
 th{
   border: 2px solid red;
-  background-color: red;
-  color: aliceblue;
+  background-color:white;
+  color: blue;
 }
 #tipik{
   width: 600px;
   text-align: center;
+  background-color: #6fdcb4;
 }
 #hiba{
   text-align: center;

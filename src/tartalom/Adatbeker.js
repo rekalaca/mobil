@@ -10,6 +10,8 @@ function Adatbeker() {
     const [szelesseg, setSzelesseg] = useState(null);
     const [vastagsag, setVastagsag] = useState(null);
 
+
+
     const send = () => {
         setAdat(Adat.push({ tipus: tipus, tarterulet: tarterulet, halozat: halozat, magassag: magassag, szelesseg: szelesseg, vastagsag: vastagsag }));
     };
@@ -37,7 +39,7 @@ function Adatbeker() {
         return terfogat;
     }
 
-    
+
     return (
         <div id="fo">
             <h1>Apple Iphone mobilok</h1>
@@ -64,12 +66,11 @@ function Adatbeker() {
                     <option value="512">512 GB</option>
                     <option value="1000">1 TB</option>
                 </select>
-                <label>  Mobil hálózat típusa:</label><select id="halozat" type="text" onChange={(e) => (setHalozat(e.target.value))}>
-                    <option value="">Válassz!</option>
-                    <option value="3G">3G</option>
-                    <option value="LTE">LTE</option>
-                    <option value="5G">5G</option>
-                </select><br></br>
+                <br></br>
+
+                <label>Mobil hálózat típusa: 5G</label>
+                <input id="5G" type="checkbox"
+                    onChange={(e) => (setHalozat(e.target.checked ? "5G" : "LTE"))} /> (alapból LTE)<br></br>
                 <label>Készülék magassága:</label><input id="magassag" type="number" onChange={(e) => (setMagassag(e.target.value))} /> mm<br></br>
                 <label>Készülék szélessége:</label><input id="szelesseg" type="number" onChange={(e) => (setSzelesseg(e.target.value))} /> mm<br></br>
                 <label>Készülék vastagsága:</label><input id="vastagsag" type="number" onChange={(e) => (setVastagsag(e.target.value))} /> mm<br></br>
@@ -101,7 +102,7 @@ function Adatbeker() {
                 </table>
 
             </div>
-            
+
             <div id='footer'><hr></hr><p>Készítette: Rékási László</p></div>
 
 
